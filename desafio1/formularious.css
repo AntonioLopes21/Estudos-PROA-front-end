@@ -1,0 +1,97 @@
+#form {
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+   
+}
+
+body {
+    
+}
+
+.textao {
+
+    text-align: center;
+    color: white;
+    background-color: blue;
+    border-width:10px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: groove;
+    size: 50%;
+    width: 30%;
+    height: 30%;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;    
+}
+
+/* **primeiro fieldset */
+#quadrado {
+    color: white;
+    border-width: 10px;
+    background-color: blue;
+    size: 30%;
+    margin: auto;
+    width: 40%;
+    height: 40%;
+    border-color: black;
+    /*border-color: red;
+    border-style: dashed;
+    min-width: 60%;
+    max-width: 30%;
+    height:  80%; */
+}
+
+
+.inputInfoPessoal {
+    color: black;
+}
+
+
+#dadosProfissionais {
+    border-color: black;
+    border-width: 10px;
+    background-color: blue;
+    color: white;
+    size: 30%;
+    margin: auto;
+    width: 40%;
+    height: 40%;
+}
+
+body {
+    background-image: url('imagem/provisorio.jpg');
+    background-color: beige;
+}
+
+.botao1 {
+    border-radius: 40%;
+    border-width: 05px;
+    color: white;
+    background-color: green;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.botao2 {
+    border-radius: 40%;
+    border-width: 05px;
+    color: white;
+    background-color: black;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.caixao {
+    width: 40%;
+    height: 40%;
+}

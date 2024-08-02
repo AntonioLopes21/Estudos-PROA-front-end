@@ -1,0 +1,73 @@
+h1{
+   color: red;
+   background-color: aquamarine;
+   text-align: center;
+   font-size: xx-large;
+   font-weight: bolder;
+   font-style: oblique;
+   text-transform: uppercase;
+   
+}
+
+h2 {
+   color: blue;
+   background-color: blanchedalmond;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-decoration: underline;
+   text-transform: lowercase;
+   text-align: center;
+   border-width: thick;
+} 
+
+p {
+   color: white;
+   background-color: black;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size:small;
+   font-style: italic;
+   text-indent: 12%;
+   border-width: 10px 10px 10px 10px;
+   
+
+}
+
+/* 
+body {
+   background-color: darkcyan;
+} */
+
+.labels {
+   color: red;
+}
+
+#caixa {
+   border-width: 50%;
+   margin: auto;
+   text-align: center;
+   align-items: center;
+   align-content: center;
+   width: 40%;
+   height: 40%;
+   background-color: greenyellow;
+}
+
+p.one {
+   border-width: 50px 50px 50px 50px;
+}
+
+#caixa {
+   border-width: 10px;
+   /* border-style:  */
+   border-style: groove;/*altera o estilo da borda*/
+   border-color: aqua;
+}
+
+.sid {
+   align-content: center;
+   text-align: center;
+}
+
+.inputInfoPessoal #fname {
+   align-items: center;
+   align-content: center;
+}

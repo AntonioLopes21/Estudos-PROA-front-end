@@ -9,26 +9,28 @@
 </head>
 
 <body>
-    <h1>Formulário</h1>
-
+    <div class="textao">
+        <h1>Formulário</h1>
+    </div>
     <form id="form">
-        <fieldset>
+        <fieldset id="quadrado">
             <legend>Dados Pessoais</legend>
 
 
-            <label for="nome">Nome:</label>
+            <label class="inputInfoPessoal" for="nome">Nome:</label>
             <input type="text" name="Nome" id="Nome">
             <br>
             <br>
-            <label for="address">Endereço:</label>
+            <label class="inputInfoPessoal" for="address">Endereço:</label>
             <input type="text" name="address" id="address">
             <br>
             <br>
-            <label for="city">Cidade:</label>
+            <label class="inputInfoPessoal" for="city">Cidade:</label>
             <input type="text" name="city" id="city">
             <br>
             <br>
-            <label for="state">Estado:</label>
+            <label class="inputInfoPessoal" for="state">Estado:</label>
+
             <select name="state" id="state" size="1">
                 <option value="Pernambuco">Pernambuco</option>
                 <option value="Sao paulo">São Paulo</option>
@@ -38,7 +40,7 @@
 
         </fieldset>
 
-        <fieldset>
+        <fieldset id="dadosProfissionais">
             <legend>Dados Profissionais</legend>
             <p>Natureza do cargo:</p>
             <br>
@@ -48,7 +50,7 @@
             <input type="radio" id="Financeiro" name="Financeiro" value="Financeiro">
             <label for="Financeiro">Financeiro</label>
 
-            <input type="radio" id="Recepção" name="Recepção" value="Recepção">
+            <input type="radio" id="Recepcao" name="Recepção" value="Recepção">
             <label for="Recepção">Recepção</label>
 
             <input type="radio" id="Administrativo" name="Administrativo" value="Administrativo">
@@ -75,12 +77,12 @@
             <label for="computacao" name="computacao" value="computacao">História</label>
 
             <p>Mini-currículo:</p>
-            <textarea rows="7" cols="70"></textarea>
+            <textarea class="caixao" rows="7" cols="70"></textarea>
 
         </fieldset>
         <br>
-        <input type="submit" value="enviar">
-        <input type="reset" value="limpar">
+        <input class="botao1" type="submit" value="enviar">
+        <input class="botao2" type="reset" value="limpar">
     </form>
 </body>
 
