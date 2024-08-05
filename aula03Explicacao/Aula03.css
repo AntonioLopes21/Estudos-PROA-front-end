@@ -1,0 +1,167 @@
+#elemento_pai {
+    width: 50%;
+    height: 120px;
+    background-color: rgba(255, 192, 203, 0.775);
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    color: red;
+    float: left;
+    box-shadow: 100px;
+    border-radius: 10px;
+
+}
+
+#esquerda1 {
+
+    background-color: black;
+    color: white;
+    top: -33%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+
+}
+
+#esquerda2 {
+
+    background-color: black;
+    color: white;
+
+    left: 0%;
+    top: -115%;
+}
+
+#direita1 {
+    background-color: black;
+    color: white;
+    left: 0%;
+    top: -33%;
+
+}
+
+#direita2 {
+    background-color: black;
+    color: white;
+
+    left: 0%;
+    top: -115%;
+
+}
+
+#elemento_pai2 {
+    width: 50%;
+    height: 120px;
+    background-color: rgba(27, 194, 255, 0.744);
+    float: left;
+    text-align: center;
+    box-shadow: 100px;
+    border-radius: 10px;
+    
+    p, h1 {
+        color: blue;
+    }
+
+
+}
+
+
+.filhosDaDireita {
+    float: right;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: -110%;
+
+}
+
+.filhosDaEsquerda {
+    float: left;
+    background-color: black;
+    color: white;
+    position: relative;
+
+
+}
+
+
+body {
+    background-image: url('imagens/ketnipz-soft-aesthetic-wndw65ng197i3q5p.jpg');
+
+    width: 100%;
+    height: 100%;
+}
+
+#Geral_body {
+    width: 100%;
+    height: 100%;
+}
+
+.imagemEsquerda {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 5%;
+    margin-left: 4px;
+    margin-top: 10px;
+}
+
+.imagemEsquerda img {
+    width: 100%;
+}
+
+.paragrafoEsquerdo {
+    float: right;
+    top: 2px;
+    text-align: center;
+    margin-right:100%;
+
+}
+
+
+
+.imagemDireita {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 5%;
+    margin-left: 4px;
+    margin-top: 10px;
+
+
+}
+
+.imagemDireita img {
+    width: 100%;
+    float: left;
+}
+
+.paragrafoEsquerdo {
+    float: right;
+    top: 2px;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.paragrafoEsquerdo p, h1 {
+    text-align: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-top: 2px;
+    margin-right: 40%;
+    
+}
+
+
+.paragrafoDireito {
+    float: right;
+    top: 2px;
+    text-align: center;
+    margin-right: 45%;
+}
+
+.paragrafoDireito p, h1 {
+    text-align: center;
+}

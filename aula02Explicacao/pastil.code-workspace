@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "pastil",
+			"path": ".."
+		},
+		{
+			"name": "atividade1",
+			"path": "../atividade1"
+		},
+		{
+			"name": "assunto1",
+			"path": "../assunto1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "pastil"
+	}
+}
