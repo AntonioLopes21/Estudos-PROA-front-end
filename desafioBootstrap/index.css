@@ -1,0 +1,81 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    background-color: #dadab3;
+}
+
+#parte-Principal {
+align-items: center;
+text-align: center;
+margin: auto;
+}
+
+
+body {
+    background-color:#dadab3 ;
+}
+
+.container-fluid {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    align-content: center;
+}
+
+ol {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+li {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+ol li {
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+footer {
+    background-color: #ffc107;
+    text-align: center;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav a {
+    color: #000000; 
+    text-decoration: none; 
+    padding: 0px 20px; 
+    font-size: 18pt; 
+    position: relative;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+
+nav a::after {
+    content: " ";
+    width: 0%;
+    height: 4px; 
+    background-color: #000000; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s ease-in-out;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
