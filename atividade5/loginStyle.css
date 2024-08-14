@@ -1,0 +1,54 @@
+body {
+    
+    padding: 0;
+}
+/*corpo do site*/
+.corpo{
+    background-color: black;
+}
+
+header, footer {
+    background-color: gold;
+    width: 100%;
+    position: fixed;
+}
+
+main {
+    margin-top: 15%;
+}
+
+header {
+    top: 0%;
+    position: fixed;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0%;
+    text-align: center;
+}
+
+#imagem{
+    align-items: center;
+    text-align: center;
+
+}
+
+#link {
+    text-align: center;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+
+.container {
+    display: inline-block;   
+}
+
+.container img {
+    width:"150px";
+     height:"150px";
+}
