@@ -5,15 +5,20 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
+
 }
 
-header {
-    
+footer {
+    background-color: #000000;
+    width: 20%;
 }
 
-#logo-netflix img{
+header {}
+
+#logo-netflix img {
     width: 215px;
+    margin-left: 140px;
+    margin-top: -20px;
 }
 
 #caixa-transparente {
@@ -23,25 +28,35 @@ header {
     align-items: center;
     margin: auto;
     display: flex;
-    gap: 20px;
+    gap: 15px;
     flex-direction: column;
 }
 
-#caixa-transparente h1 {
+#caixa-transparente h1,
+h5 {
     color: white;
     text-align: center;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
 }
 
-.email, .senha {
+#caixa-transparente h5 {
+    margin: -1px;
+}
+
+.email,
+.senha {
     margin: auto;
-    background-color: rgba(128, 128, 128, 0.167);
+    background-color: #161616b3;
     border-color: rgba(0, 0, 0, 0.67);
     border-radius: 3px;
     width: 300px;
     height: 40px;
     color: white;
+    border: 1px solid white;
 
+    padding-left: 15px;
 }
 
 .btn-login {
@@ -50,5 +65,75 @@ header {
     background-color: red;
     color: white;
     border-radius: 5px;
-    
+    border: none;
+
+}
+
+#caixa-transparente h1 {
+    font-weight: 600;
+    margin-top: 12%;
+    margin-left: -215px;
+
+}
+
+.btn-acess-code {
+    width: 310px;
+    height: 40px;
+    background-color: rgba(105, 105, 105, 0.474);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.forgot-password {
+    color: white;
+    text-decoration: none;
+}
+
+.checkbox {
+    color: white;
+    font-weight: 100;
+    margin-left: -120px;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+}
+
+.copyright {
+    color: white;
+    span {
+        color: #0071EB;
+    }
+    font-weight: 100;
+    font-size: 13px;
+    width: 70%;
+}
+
+.container-flex {
+    background-color: #000000;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: -6px;
+    margin-top: 60px;
+}
+
+#footer  {
+
+    footer h5 {
+        
+    }
+
+    h1,h2,h3,h4,h5,h6,p {
+        margin-left: -60%;
+        display:block;
+        
+
+    }
 }
