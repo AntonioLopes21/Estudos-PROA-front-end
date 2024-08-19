@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <div class="container" id="logo-netflix">
+        <div class="container-flex" id="logo-netflix">
             <img src="image/Netflix-logo.png">
         </div>
     </header>
@@ -19,7 +19,7 @@
             <h1>Entrar</h1>
             <input class="email" type="email" name="email" placeholder="Email ou número de celular">
             <input class="senha" type="password" name="password" placeholder="Senha">
-            <button class="btn-login">Entrar</button>
+            <a href="/desafios/DesafioNetflix/acessoPerfis/perfis.html"><button class="btn-login">Entrar</button></a>
             <h5>OU</h4>
                 <button class="btn-acess-code">Usar um código de acesso</button>
 
@@ -28,18 +28,51 @@
                 <div class="checkbox">
                     <input type="checkbox" name="vsc" id="vsc" value="vsc">
                     <label for="vsc" name="checkbox" value="checkbox">Lembre-se de mim</label>
-                    <p>Novo por aqui? <a href="">Assine agora.</a></p>
+                    <p class="texto">Novo por aqui? <a href=""><strong> Assine agora.</strong></a></p>
                 </div>
                 <div class="copyright">
-                    <p>Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. <span>Saiba
+                    <p class="novoAqui">Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um
+                        robô. <span>Saiba
                             mais.</span></p>
                 </div>
 
         </div>
     </main>
     <footer>
-        <div class="container-flex" id="footer">
-            <h5>Dúvidas? Ligue 0800 591 2876</h5>
+        <div class="container" id="footer">
+            <div class="texto-footer">
+                <h4 class="texto-rodape">Dúvidas? Ligue 0800 591 2876</h4>
+                <u>
+                    <p>Perguntas frequentes</p>
+                </u>
+                <u>
+                    <p>preferência de cookies</p>
+                </u>
+
+                <div class="legenda">
+                    
+                    <select id="formacao" name="formacao" size="1">
+                        <option value="Medio">Português</option>
+                        <option value="Tec">Inglês</option>
+                    </select>
+                </div>
+            </div>
+            <div class="texto-footer">
+                <u>
+                    <p>Central de Ajuda</p>
+                    <p>Informações corporativas</p>
+                </u>
+            </div>
+            <div class="texto-footer">
+                <u>
+                    <p>Termos de Uso</p>
+                </u>
+            </div>
+            <div class="texto-footer">
+                <u>
+                    <p>Privacidade</p>
+                </u>
+            </div>
         </div>
     </footer>
 </body>
