@@ -1,0 +1,7 @@
+funções
+
+funções são parecidas com os métodos
+
+math.random
+
+if alternário
