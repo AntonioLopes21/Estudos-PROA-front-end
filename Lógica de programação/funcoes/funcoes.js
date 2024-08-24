@@ -36,10 +36,19 @@ console.log("A divisão é: " + divisao(4, 4))
 function getSizes(alt, lar, com) {
     let area = alt * lar
     let volume = alt * lar * com
-    let sizes = (area, volume)
+    let sizes = [area, volume, alt, lar, com]
     return sizes
 }
 
+console.log("\n\n")
+console.log("Lista")
+console.log(getSizes(3,3,2))
+console.log(getSizes(3,3,2)[0])
+console.log(getSizes(3,3,2)[1])
+console.log(getSizes(3,3,2)[2])
+console.log(getSizes(3,3,2)[3])
+console.log(getSizes(3,3,2)[4])
+console.log("\n\n")
 
 /**
  * função que chama fruta e retorn a doce ou salgada
@@ -106,3 +115,15 @@ function Adivinhamento(num) {
 }
 
 console.log(Adivinhamento(10));
+
+
+//para lista
+
+console.log("\n\n")
+console.log("Lista")
+console.log(getSizes(3,3,2))
+console.log(getSizes(3,3,2)[0])
+console.log(getSizes(3,3,2)[1])
+console.log("\n\n")
+
+
