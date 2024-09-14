@@ -1,5 +1,44 @@
 body {
-    width: 100vh;
-    height: 100vh;
+    min-height: 100vh;
+    max-width: 100%;
     background-color: #141414;
+}
+
+main {
+    
+}
+
+.slides {
+    align-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.slides img {
+    width: 220px;
+}
+
+.setas {
+    position: absolute;
+}
+
+#seta-esquerda {
+    bottom: -14%;
+}
+
+#seta-direita{
+    bottom: -14%;
+    left: 93%;
+}
+
+#trailer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
 }
