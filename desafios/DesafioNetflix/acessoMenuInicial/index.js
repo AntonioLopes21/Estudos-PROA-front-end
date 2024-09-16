@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function rodarCarrossel(carrossel) {
         const slides = carrossel.querySelectorAll('img')
         const todasAsImagens = slides.length
-        const quantidadeDeImagensVisiveis = 7
+        const quantidadeDeImagensVisiveis = 3
         const rodadasTotais = Math.ceil(todasAsImagens / quantidadeDeImagensVisiveis)
 
         let contador = 0
