@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página do usuário</title>
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+    <title>Início</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -15,39 +16,164 @@
 
         <div class="nav-barEVideo">
 
-        <nav>
-            <div class="logo">
-                <img src="img/Netflix-logo.png" alt="">
-            </div>
-            
-            <div class="opcoes">
-                <div class="opcao1">
-                    <h4>Início</h4>
+            <nav>
+                <div class="logo">
+                    <img src="img/Netflix-logo.png" alt="">
                 </div>
-                <div class="opcao2">
-                    <h4>Séries</h4>
-                </div>
-                <div class="opcao3">
-                    <h4>Filmes</h4>
-                </div>
-                <div class="opcao4">
-                    <h4>Bombando</h4>
-                </div>
-                <div class="opcao5">
-                    <h4>Minha lista</h4>
-                </div>
-                <div class="opcao6">
-                    <h4>Navegar por idiomas</h4>
-                </div>
-            </div>
-        </nav>
 
-            <video id="myVideo" src="vid/allOfUs.mp4" width="100%" autoplay muted loop></video>
-                
-    </div>
+                <div class="opcoes">
+                    <div class="opcao1">
+                        <h4>Início</h4>
+                    </div>
+                    <div class="opcao2">
+                        <h4>Séries</h4>
+                    </div>
+                    <div class="opcao3">
+                        <h4>Filmes</h4>
+                    </div>
+                    <div class="opcao4">
+                        <h4>Bombando</h4>
+                    </div>
+                    <div class="opcao5">
+                        <h4>Minha lista</h4>
+                    </div>
+                    <div class="opcao6">
+                        <h4>Navegar por idiomas</h4>
+
+
+                    <div class="div-direita">
+                        <img src="img/bx-search (1).svg" alt="" class="lupa">                
+                        <img src="img/bx-bell-minus.svg" alt="">
+                        <img src="/desafios/DesafioNetflix/acessoPerfis/imagens/perfil2.png" alt="">
+                    </div>
+
+                    </nav>
+
+            <div class="barra-informacoes">
+                <div class="informacoes-filme">
+                    <img src="icon/favicon.ico" alt="">
+                </div>
+                <h4 class="nome-filme">SÉRIE</h4>
+            </div>
+
+            <div class="titulo-trailer">
+                <img src="img/All-of-Us-Are-DeadTEXT.png" alt="">
+            </div>
+
+
+            <div class="assitir">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAALhJREFUSEvtlcENQiEMhttdSFjDo0u9Cd4UTqE3J/DoBcLJKUwIGDyZqMH2bx6JgTt87dfSMg06PIhLE7yZ+an6TbVzbldrTSmlm2UduqobmJlPRLTEGFcr+K/gcwMy86UFEEI4ogGIwC+wQyllQfRrwS2GO6IfAT8FaPXDYK1+S7BI/1+ARZ0OZzyiuYZ8J5HWT1NOpFqrFQFvvyS89/uc8xWZy6qM0S307X63xhNsZWCqtjLZfecBI1VuH9oCb5UAAAAASUVORK5CYII="/>
+                <h3>Assistir</h3>
+            </div>
+            <div class="mais-infor">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAABA5JREFUSEvFV1uIHEUUPbcf4+50VW+PurgakA3EJIrC/izEKKjkQxSJD1AMEvFDFANqIAqKSHSJMUQRox/x8SFKEBViPkQjKCgiKFlFiUoUo4mo64ouY3fVrKtO93VqqcGed69ZSH3NVJ17z71VdW+dJpykQSeJF0siZmZXKbXOcZxxAGfaoGeyLDsmpTxERGnRRAoRx3F8juu69zPztQCiHs7nABxI0/TRKIq+HxRAX2JmLmutdwHYAsAd5Myu/w3gMSHEFBGZ311HT+JqtTrued4bAM7POdxPRG8DODw/P3/U933P9/3xLMsmiOiKxvx1ADyDJ6JDADYKIX7txtyVWCl1LoAPAZxqjJj5YJqmWyqVyvF+WcdxvMpxnGcAbLC4n13XXVcul39qt+sg1lqfwcyfAlhhwQ9LKR8quM0mSFJK7Saie6zNkVqtNjk2NlbL++ggbmT7KoAbLGi7lHKqnbRarUae502Y+Xq9/nmlUvmjHaOUehLA3XZ+j5Rya09irfUFzHzYntGbQoirumWqlLoUwHt27TIp5fvtOFN6WusPAKwH8I8pwSAIZpq4loyTJHmRiG4mohoRrc4D846LEBt8kiRriOhLe+F2Sikf6CBm5pLW+ncAEsBeKaUpoa6jyFY3DZVSBwBcQ0THhRArO4i11huY+V2z4DjOlUEQHCx6ofrhkiS5lYieN5gsy1aPjIx8u3iUTaMkSW4hohcs8Ype22zWl5Kx1nqCmT8zdsy8MQxD0xtaiO8lot1mUghxSr+uU/SMc0FW7YXdKoTY00Kstd7GzI+byYWFhXB0dFT12sKlEM/NzYWlUim2xNuEEE+0E29i5pftlqwNw/Cb5SBWSp0H4Cvr60YppekT/211HMfmufvIAjZJKV9ZDmKt9WZmfsnenckgCD5pITatTmv9G4DTmHlfGIabl4O4kfFrjYyvBzArhDiLiLiF2PxRSj0L4DYAf7quu6ZcLv/YjbzoGdsGYjphqZHQ01LKuzrq2ExY4BF7BO8IIS5vRpgPoAixbZmmlV5sSjhN01VRFB3rSmyz3gfgJgvYIaV8sD3rInWslHoKwJ3W9jkp5e15Px2vU5IkpzuOM83MRleZMSWl3N7rvNvnmdnRWpuSab5MX6dpuj6KosVa7pmxWTAay3Gcj/NCwPf9O4aHh3/oF4AVEHsbL9clFjdTr9cv6iYgliJ9/gLwOhG9BeALrfXRoaGhku/7K7Msm7Sqw0ifRW3GzNOu614dBMEv3YLtK/ZmZ2eDIAh2ADC30Sm43Ubg7RJCPPK/xF6eJEmStY1Oeh8RGXkb9gjAyNv9nuftHHQkHXU8KCNm9pRSFzqOc3Ze0Kdp+l0YhtNElA3y0fdyFTU+EVyhL4kTIehl+y80rr8uU3qFkAAAAABJRU5ErkJggg=="/>
+                <h3>Mais informações</h3>
+            </div>
+
+
+
+
+
+
+            <div class="video">
+                <video id="myVideo" src="vid/All of Us Are Dead ｜ Trailer oficial ｜ Netflix.mp4" width="100%" autoplay muted loop></video>
+            </div>
+
+
+        </div>
 
         <div class="slider">
-            <img src="img/seta-esquerda.svg" alt="" class="setas" id="seta-esquerda">
+            <div class="top8-texto">
+                <h2>Brasil: Top 8 em filmes hoje</h2>
+            </div>
+
+            <img src="img/seta-esquerda.svg" alt="" class="seta-esquerda">
+
+            <div class="tops">
+
+                <div id="top1">
+                    <img src="img-top/top1.jpg" alt="">
+                    <h1 class="top-texto">1</h1>
+                </div>
+                <div id="top2">
+                    <img src="img-top/top2.jpg" alt="">
+                    <h1 class="top-texto">2</h1>
+                </div>
+                <div id="top3">
+                    <img src="img-top/top3.jpg" alt="">
+                    <h1 class="top-texto">3</h1>
+                </div>
+                <div id="top4">
+                    <img src="img-top/top4.jpg" alt="">
+                    <h1 class="top-texto">4</h1>
+                </div>
+                <div id="top5">
+                    <img src="img-top/top5.jpg" alt="">
+                    <h1 class="top-texto">5</h1>
+                </div>
+                <div id="top6">
+                    <img src="img-top/top6.jpg" alt="">
+                    <h1 class="top-texto">6</h1>
+                </div>
+                <div id="top7">
+                    <img src="img-top/top7.jpg" alt="">
+                    <h1 class="top-texto">7</h1>
+                </div>
+                <div id="top8">
+                    <img src="img-top/top8.jpg" alt="">
+                    <h1 class="top-texto">8</h1>
+                </div>
+
+            </div>
+
+            <img src="img/seta-direita.svg" alt="" class="seta-direita">
+
+
+
+        </div>
+
+        <h3 class="sugestoes">Principais escolhas do dia para você:</h3>
+
+
+        <div class="slider1">
+
+            <img src="img/seta-esquerda.svg" alt="" class="seta esquerda" id="carrossel-esquerda2">
+
+            <div class="slides">
+
+                <img src="img/ClubeDaLuta.jpg.jpeg" alt="">
+                <img src="img/prison break.jpg" alt="">
+                <img src="img/suits.jpg" alt="">
+                <img src="img/Finalmente18.jpg" alt="">
+                <img src="img/a babá.jpg" alt="">
+                <img src="img/twd.jpg" alt="">
+                <img src="img/operacaoSupletivo.jpg" alt="">
+                <img src="img/zerandoAVida.jpg" alt="">
+                <img src="img/arcane.jpg" alt="">
+                <img src="img/black-mirror.jpg" alt="">
+                <img src="img/bridgerton.jpg" alt="">
+                <img src="img/alice-in-borderland.jpg" alt="">
+                <img src="img/espetacular-homem-aranha.webp" alt="">
+                <img src="img/one-piece.webp" alt="">
+                <img src="img/hotel-transilvania.webp" alt="">
+                <img src="img/o-poco.jpg" alt="">
+                <img src="img/peppa-pig.webp" alt="">
+                <img src="img/matilda.webp" alt="">
+                
+
+            </div>
+
+            <img src="img/seta-direita.svg" alt="" class="seta direita" id="carrossel-direita2">
+
+        </div>
+
+        <h3 class="continuar-assistindo">Continue assistindo como Max</h3>
+
+        <div class="slider2">
+
+
+            <img src="img/seta-esquerda.svg" alt="" class="seta esquerda" id="carrossel-esquerda2">
+
             <div class="slides">
                 <img src="img/ClubeDaLuta.jpg.jpeg" alt="">
                 <img src="img/prison break.jpg" alt="">
@@ -67,11 +193,34 @@
                 <img src="img/o-poco.jpg" alt="">
                 <img src="img/peppa-pig.webp" alt="">
                 <img src="img/matilda.webp" alt="">
+                <img src="img/ClubeDaLuta.jpg.jpeg" alt="">
+                <img src="img/prison break.jpg" alt="">
+                <img src="img/suits.jpg" alt="">
+                <img src="img/Finalmente18.jpg" alt="">
+                <img src="img/a babá.jpg" alt="">
+                <img src="img/twd.jpg" alt="">
+                <img src="img/operacaoSupletivo.jpg" alt="">
+                <img src="img/zerandoAVida.jpg" alt="">
+                <img src="img/arcane.jpg" alt="">
+                <img src="img/black-mirror.jpg" alt="">
+                <img src="img/bridgerton.jpg" alt="">
+                <img src="img/alice-in-borderland.jpg" alt="">
+                <img src="img/espetacular-homem-aranha.webp" alt="">
+                <img src="img/one-piece.webp" alt="">
+                <img src="img/hotel-transilvania.webp" alt="">
+                <img src="img/o-poco.jpg" alt="">
+                <img src="img/peppa-pig.webp" alt="">
+                <img src="img/matilda.webp" alt="">
             </div>
-            <img src="img/seta-direita.svg" alt="" class="setas" id="seta-direita">
+
+            <img src="img/seta-direita.svg" alt="" class="seta direita" id="carrossel-direita2">
+
+        </div>
+        </div>
         </div>
         </div>
     </main>
+    <script src="index.js"></script>
 </body>
 
 </html>
